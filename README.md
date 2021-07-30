@@ -15,6 +15,9 @@ Configure foreach workspace, which roles can access / can not access a workspace
 
 We have included a script that will "Monkey Patch" the relevant file/method. There is no need to manually modify any file. Therefore it is also no big deal to update Frappe later on - after updating (what would remove the modification), you just need to make sure to execute the given "seeds" once again.
 
+## Dependency
+-   Frappe/ ERPNext v13
+
 ## Install on Self-Hosted
 > Remeber to replace  `MY_SITE`  with your site name.
 
