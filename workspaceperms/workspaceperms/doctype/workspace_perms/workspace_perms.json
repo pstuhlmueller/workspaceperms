@@ -1,0 +1,82 @@
+{
+ "actions": [],
+ "autoname": "field:workspace",
+ "creation": "2021-07-28 15:25:17.406218",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "workspace",
+  "permissions_section",
+  "visible_to_roles",
+  "column_break_4",
+  "hidden_to_roles"
+ ],
+ "fields": [
+  {
+   "fieldname": "workspace",
+   "fieldtype": "Link",
+   "label": "Workspace",
+   "options": "Workspace",
+   "unique": 1
+  },
+  {
+   "fieldname": "permissions_section",
+   "fieldtype": "Section Break",
+   "label": "Permissions"
+  },
+  {
+   "fieldname": "visible_to_roles",
+   "fieldtype": "Table MultiSelect",
+   "label": "Visible To Roles",
+   "options": "Role Link"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "hidden_to_roles",
+   "fieldtype": "Table MultiSelect",
+   "label": "Hidden To Roles",
+   "options": "Role Link"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-07-29 15:27:55.402056",
+ "modified_by": "Administrator",
+ "module": "Workspaceperms",
+ "name": "Workspace Perms",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "IPMS Administrator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "workspace",
+ "track_changes": 1
+}

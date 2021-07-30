@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include workspaceperms *.css
+recursive-include workspaceperms *.csv
+recursive-include workspaceperms *.html
+recursive-include workspaceperms *.ico
+recursive-include workspaceperms *.js
+recursive-include workspaceperms *.json
+recursive-include workspaceperms *.md
+recursive-include workspaceperms *.png
+recursive-include workspaceperms *.py
+recursive-include workspaceperms *.svg
+recursive-include workspaceperms *.txt
+recursive-exclude workspaceperms *.pyc

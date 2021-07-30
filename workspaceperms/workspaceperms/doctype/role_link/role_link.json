@@ -1,0 +1,32 @@
+{
+ "actions": [],
+ "autoname": "field:role_name",
+ "creation": "2021-07-29 11:16:08.992397",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "role_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "role_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Role Name",
+   "options": "Role"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-07-29 13:16:08.992397",
+ "modified_by": "Administrator",
+ "module": "Workspaceperms",
+ "name": "Role Link",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
