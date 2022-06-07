@@ -14,13 +14,14 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Role Name",
-   "options": "Role"
+   "options": "Role",
+   "unique": 0
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2021-07-29 13:16:08.992397",
+ "modified": "2022-06-07 13:16:08.992397",
  "modified_by": "Administrator",
  "module": "Workspaceperms",
  "name": "Role Link",
